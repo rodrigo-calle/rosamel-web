@@ -1,0 +1,42 @@
+
+:root{
+
+    --main-color: #222931;
+    --second-color: #fe7012;
+}
+.menu-button{
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    background-color: var(--second-color);
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-radius: 50%;
+    visibility: hidden;
+}
+.menu-button img{
+    height:50px;
+    margin-top: 14px;
+    margin-left: 15px;
+}
+
+.call-button{
+    z-index: 999;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    bottom: 120px;
+    right: 25px;
+    border-radius: 50%; 
+    box-shadow: 5px 2px var(--main-color);
+    box-shadow: 10px 5px 5px var(--main-color);
+    cursor: pointer;
+}
+
+.call-button img{
+    height:50px;
+    margin-top: 13px;
+    margin-left: 12px;
+}
