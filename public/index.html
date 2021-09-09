@@ -16,75 +16,81 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-
     <header>
-        <div class="main-banner">
-            <div class="main-banner--premenu">
-                <div class="main-banner--premenu-section one">
-                    <img class="logo" src="img/logo.png" alt="">
+        <section class="main-section">
+            <h2 class="main-section-title"></h2>
+            <div class="main-banner">
+                <div class="blocks">
                 </div>
-                <div class="main-banner--premenu-section two">
-                    <div>
-                        <img src="https://icongr.am/feather/smartphone.svg?size=128&color=fe7012"
-                            style="height: 30px; width:30px; margin-right: 3px;" alt="">
+                <div class="main-banner--premenu">
+                    <div class="main-banner--premenu-section one">
+                        <img class="logo" src="img/final_logo.png" alt="">
                     </div>
-                    <div>
-                        <p class="main-banner--premenu-section-title">SOPORTE Y VENTAS</p>
-                        <a href="">
-                            <p class="main-banner--premenu-section-phone"><strong>(+51)999 999 999</strong> </p>
-                        </a>
+                    <div class="main-banner--premenu-section two">
+                        <div>
+                            <img src="https://icongr.am/feather/smartphone.svg?size=128&color=fe7012"
+                                style="height: 30px; width:30px; margin-right: 3px;" alt="">
+                        </div>
+                        <div>
+                            <p class="main-banner--premenu-section-title">SOPORTE Y VENTAS</p>
+                            <a href="">
+                                <p class="main-banner--premenu-section-phone"><strong>(+51)999 999 999</strong> </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main-banner--premenu-section trhee">
+                        <div>
+                            <img src="https://icongr.am/entypo/clock.svg?size=128&color=fe7012"
+                                style="height: 30px; width:30px; margin-right:3px;" alt="">
+                        </div>
+                        <div>
+                            <p class="main-banner--premenu-section-title">HORARIO DE ATENCIÓN</p>
+                            <p class="main-banner--premenu-section-time"><strong>LU-SA: 8AM - 5:30PM</strong> </p>
+                        </div>
+                    </div>
+                    <div class="main-banner--premenu-section four">
+                        <button class="main-banner--premenu-section--request">
+                            <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt=""> RESERVAR UNA CITA
+                        </button>
                     </div>
                 </div>
-                <div class="main-banner--premenu-section trhee">
-                    <div>
-                        <img src="https://icongr.am/entypo/clock.svg?size=128&color=fe7012"
-                            style="height: 30px; width:30px; margin-right:3px;" alt="">
-                    </div>
-                    <div>
-                        <p class="main-banner--premenu-section-title">HORARIO DE ATENCIÓN</p>
-                        <p class="main-banner--premenu-section-time"><strong>LU-SA: 8AM - 5:30PM</strong> </p>
-                    </div>
+                <div class="main-banner--menu">
+                    <ul class="main-banner--menu--list">
+                        <li class="main-banner--menu-list-item">
+                            HOME
+                        </li>
+                        <li class="main-banner--menu-list-item">
+                            ACERCA DE NOSOTROS
+                        </li>
+                        <li class="main-banner--menu-list-item">
+                            SERVICIOS
+                        </li>
+                        <li class="main-banner--menu-list-item">
+                            PROYECTOS
+                        </li>
+                        <li class="main-banner--menu-list-item">
+                            CONTACTANOS
+                        </li>
+                    </ul>
                 </div>
-                <div class="main-banner--premenu-section four">
-                    <button class="main-banner--premenu-section--request">
-                        <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt=""> RESERVAR UNA CITA
-                    </button>
+                <div class="main-banner--promotion">
+                    <p class="main-banner--promotion--title">
+                        Lorem ipsum dolor sit amet, consectetur
+                    </p>
+                    <p class="main-banner--promotion--description">
+                        Lorem ipsum dolor sit amet.
+                    </p>
                 </div>
             </div>
-            <div class="main-banner--menu">
-                <ul class="main-banner--menu--list">
-                    <li class="main-banner--menu-list-item">
-                        HOME
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        ACERCA DE NOSOTROS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        SERVICIOS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        PROYECTOS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        CONTACTANOS
-                    </li>
-                </ul>
-            </div>
-            <div class="main-banner--promotion">
-                <p class="main-banner--promotion--title">
-                    Lorem ipsum dolor sit amet, consectetur
-                </p>
-                <p class="main-banner--promotion--description">
-                    Lorem ipsum dolor sit amet.
-                </p>
-            </div>
-        </div>
+        </section>
+        
     </header>
     <section class='content-container'>
-        <div class="content-container--presentation">
+        <div class="content-container--presentation" data-aos="fade-up"  data-aos-duration="2000">
             <h2 class="content-container--presentation--title">
                 ¿QUÉ HACEMOS?
             </h2>
@@ -94,7 +100,7 @@
             </p>
 
             <div class="content-container--presentation--cards">
-                <div class="content-container--presentation--cards--card">
+                <div class="content-container--presentation--cards--card" data-aos="zoom-in"  data-aos-duration="1000" >
                     <img class="presentation--cards--card--picture" src="./img/service1.jpg" alt="">
                     <div>
                         <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
@@ -105,7 +111,7 @@
                     </div>
                 </div>
 
-                <div class="content-container--presentation--cards--card">
+                <div class="content-container--presentation--cards--card" data-aos="zoom-in"  data-aos-duration="1000">
                     <img class="presentation--cards--card--picture" src="./img/service2.jpg" alt="">
                     <div>
                         <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
@@ -116,7 +122,7 @@
                     </div>
                 </div>
 
-                <div class="content-container--presentation--cards--card">
+                <div class="content-container--presentation--cards--card" data-aos="zoom-in"  data-aos-duration="1000">
                     <img class="presentation--cards--card--picture" src="./img/service3.jpg" alt="">
                     <div>
                         <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
@@ -130,13 +136,13 @@
 
             <div class="content-container--presentation--buttons">
                 <a href="">
-                    <button class="content-container--presentation--buttons--more-services">
+                    <button class="content-container--presentation--buttons--more-services" data-aos="zoom-in"  data-aos-duration="1000">
                         TODOS LOS SERVICIOS
                         <img src="https://icongr.am/material/unfold-more-horizontal.svg?size=128&color=ffffff" alt="">
                     </button>
                 </a>
                 <a href="">
-                    <button class="content-container--presentation--buttons--date">
+                    <button class="content-container--presentation--buttons--date" data-aos="zoom-in"  data-aos-duration="1000">
                         <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt="">
                         RESERVAR UNA CITA
                     </button>
@@ -144,7 +150,7 @@
             </div>
         </div>
 
-        <div class="difference-container">
+        <div class="difference-container" data-aos="fade-up"  data-aos-duration="2000">
             <div class="difference-subcontainer">
                 <p class="difference-subcontainer--title">¿QUÉ NOS HACE DIFERENTES?</p>
                 <p class="difference-subcontainer--description">Lorem ipsum dolor sit amet consectetur
@@ -206,7 +212,7 @@
 
         </div>
 
-        <div class="about-us">
+        <div class="about-us" data-aos="fade-up"   data-aos-duration="2000">
             <div class="about-us--content">
                 <p class="about-us--content--title">
                     ACERCA DE NOSOTROS
@@ -219,7 +225,7 @@
             </div>
 
             <div class="about-us-cards">
-                <div class="about-us--cards--card">
+                <div class="about-us--cards--card" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="about-us--cards--card--picture" src="./img/service1.jpg" alt="">
                     <p class="about-us--cards--card--title">
                         Lorem, ipsum.
@@ -229,7 +235,7 @@
                         error dolores incidunt dignissimos soluta placeat.
                     </p>
                 </div>
-                <div class="about-us--cards--card">
+                <div class="about-us--cards--card" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="about-us--cards--card--picture" src="./img/service2.jpg" alt="">
                     <p class="about-us--cards--card--title">
                         Lorem, ipsum.
@@ -239,7 +245,7 @@
                         error dolores incidunt dignissimos soluta placeat.
                     </p>
                 </div>
-                <div class="about-us--cards--card">
+                <div class="about-us--cards--card" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="about-us--cards--card--picture" src="./img/service3.jpg" alt="">
                     <p class="about-us--cards--card--title">
                         Lorem, ipsum.
@@ -249,7 +255,7 @@
                         error dolores incidunt dignissimos soluta placeat.
                     </p>
                 </div>
-                <div class="about-us--cards--card">
+                <div class="about-us--cards--card" data-aos="zoom-in-down" data-aos-duration="1500">
                     <img class="about-us--cards--card--picture" src="./img/worker.jpg" alt="">
                     <p class="about-us--cards--card--title">
                         Lorem, ipsum.
@@ -269,7 +275,7 @@
             </div>
         </div>
 
-        <div class="last-projects">
+        <div class="last-projects" data-aos="fade-up"  data-aos-duration="1000">
             <div class="last-project--content">
                 <p class="last-projects-content--title">
                     ÚLTIMOS PROYECTOS
@@ -280,8 +286,8 @@
 
                 </p>
             </div>
-            <div class="last-projects--cards">
-                <div class="last-projects--cards--card">
+            <div class="last-projects--cards"  >
+                <div class="last-projects--cards--card" data-aos="flip-left" data-aos-duration="1000">
                     <img class="last-projects--cards--card--img" src="./img/service1.jpg">
                     <div class="last-projects--cards--card--content">
                         <p class="last-projects--cards--card--title">
@@ -297,7 +303,7 @@
                     </div>
 
                 </div>
-                <div class="last-projects--cards--card">
+                <div class="last-projects--cards--card" data-aos="flip-up" data-aos-duration="1000">
                     <img class="last-projects--cards--card--img" src="./img/service3.jpg">
                     <div class="last-projects--cards--card--content">
                         <p class="last-projects--cards--card--title">
@@ -312,7 +318,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="last-projects--cards--card">
+                <div class="last-projects--cards--card" data-aos="flip-right" data-aos-duration="1000">
                     <img class="last-projects--cards--card--img" src="./img/service2.jpg">
                     <div class="last-projects--cards--card--content">
                         <p class="last-projects--cards--card--title">
@@ -331,7 +337,7 @@
         </div>
 
 
-        <div class="working-with-us">
+        <div class="working-with-us" data-aos="fade-up"   data-aos-duration="2000">
             <div class="working-with-us--content">
                 <p class="working-with-us--content--title">
                     ¿INTERESADO EN TRABAJAR CON GROUP ROSAMEL?
@@ -342,7 +348,7 @@
                     voluptates velit.
                 </p>
             </div>
-            <div class="working-with-us--buttons-container">
+            <div class="working-with-us--buttons-container" >
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
@@ -398,7 +404,7 @@
             </div>
         </div>
 
-        <div class="we-are">
+        <div class="we-are" data-aos="fade-up"   data-aos-duration="2000">
             <div class="we-are--section">
                 <P class="we-are--section--title">
                     NOSOTROS SOMOS GROUP ROSAMEL
@@ -417,7 +423,7 @@
             </div>
         </div>
 
-        <div class="compact-container">
+        <div class="compact-container" data-aos="fade-down"   data-aos-duration="3000">
            
             <div class="compact-container--item">
                 <p class="compact-container--item--title">
@@ -447,7 +453,8 @@
                 </p>
                 <ul class="compact-container--item--list-information">
                     <li class="compact-container--item--list-information--item">
-                        <img src="https://icongr.am/material/chevron-right.svg?size=128&color=fe7012" alt="">
+                        <!-- <img src="https://icongr.am/material/chevron-right.svg?size=128&color=fe7012" alt="">   -->            
+                        <img src="https://icongr.am/jam/chevron-right.svg?size=128&color=0d5fe7" alt="">
                         Lorem, ipsum.
                     </li>
                     <li class="compact-container--item--list-information--item">
@@ -518,7 +525,9 @@
     </section>
     <!-- Button -->
         <div class="call-button">
-          <img src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
+            
+            <img src="https://icongr.am/feather/phone.svg?size=128&color=0d5fe7" alt="">
+          <!-- <img src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt=""> -->
         </div>
         <div class="menu-button">
             <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff" alt="">
@@ -536,7 +545,9 @@
             <img src="" alt="">
         </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/index.js"></script>    
+    <script src="./js/banner.js"></script>
 </body>
 
 </html>
