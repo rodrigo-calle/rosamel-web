@@ -50,7 +50,7 @@
 }
 header{
     position: relative;
-    background-image: url(../img/banner.jpg);
+    background-image: url(../img/nosotros.jpg);
     width: 100%;
     height: 75vh;
 }
@@ -84,12 +84,13 @@ header{
 .main-banner--menu-list-item{
     display: inline-block;
     padding: 15px 12px;  
-    color: var(--main-color);
+    color: #fff;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: 0.7px;
     font-family: 'Hind', sans-serif;
     cursor: pointer;
+    
 }
 
 .main-banner--menu-list-item:hover{
@@ -405,4 +406,38 @@ header{
 }
 .politics--view-more img{
     vertical-align: middle;
+}
+
+
+
+
+@media only screen and (max-width: 1600px) {   
+
+    .main-banner--menu{
+        height: fit-content;
+        width: 100%;       
+        position: absolute;
+        top: 95px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+
+    .main-banner--menu--list{
+        list-style: none;
+        text-align: left;
+        padding-left: 15px;
+
+    }
+    .main-banner--menu-list-item{
+        display: inline-block;
+        padding: 15px 8px;  
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        font-style: normal;
+        font-family: 'Hind', sans-serif;
+        cursor: pointer;
+    }  
 }

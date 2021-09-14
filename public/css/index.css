@@ -104,7 +104,7 @@
 .main-banner--menu-list-item{
     display: inline-block;
     padding: 15px 12px;  
-    color: var(--main-color);
+    color: #fff;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: 0.7px;
@@ -213,17 +213,17 @@
   }
    
   .content-container--presentation--cards-card-faces-front {
-    background-color: var(--second-color);
+    background-color: var(--main-color);
     color: black;
   }
   
   .content-container--presentation--cards-card-faces-back {
-    background-color: #2980b9;
-    color: white;
+    /* background-color: #2980b9; */
+    color: #fff;
     transform: rotateY(180deg);
   }
 
-.content-container--presentation--cards-card-faces-front p, .content-container--presentation--cards-card-faces-back p{
+.content-container--presentation--cards-card-faces-front p{
     font-weight: 900;
     font-family: 'Hind', sans-serif;
     margin: 100px auto;
@@ -231,7 +231,15 @@
     color: #fff;
     font-size: 25px;
 }
-
+.content-container--presentation--cards-card-faces-back p{
+    font-weight: 900;
+    font-family: 'Hind', sans-serif;
+    margin: 100px auto;
+    width: 90%;
+    color: var(--main-color);
+    font-size: 25px;
+}
+/* 
 .card-blue{
     background-color: var(--blue-color);
 }
@@ -246,7 +254,7 @@
 .card-green{
     background-color: var(--green-color);
 }
-
+ */
 
 .content-container--presentation--buttons{
     margin-top: 15px;

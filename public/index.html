@@ -10,7 +10,8 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/index.css">
+    
+        <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/buttons.css">
     <!-- AOS animated -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -48,7 +49,7 @@
                         </div>
                     </div>
                     <div class="carousel-item" data-bs-interval="3000">
-                        <img src="./img/service1.jpg" class="d-block w-100" alt="...">
+                        <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <h1>RESPONSABILIDAD</h1>
                             <img src="https://icongr.am/fontawesome/arrow-circle-down.svg?size=128&color=ffffff"
@@ -80,8 +81,8 @@
             <!-- dsadasd -->
             <div class="button-group">
                 <div class="button-gorup--container">
-                    <div class="button-group--item">CONTÁCTANOS</div>
-                    <div class="button-group--item">CANAL DE INQUIETUDES</div>
+                   <a class="links" href="./contactanos.html"><div class="button-group--item">CONTÁCTANOS</div></a> 
+                   <a class="links" href="./inquietudes.html"><div class="button-group--item">CANAL DE INQUIETUDES</div></a>   
                 </div>
             </div>
             <div class="main-banner--menu">
@@ -90,25 +91,32 @@
                 </div>
                 <div>
                     <ul class="main-banner--menu--list">
-                      <a class="links" href="./us.html">
+                      <a class="links" href="./nosotros.html">
                         <li class="main-banner--menu-list-item">
                             NOSOTROS
                         </li>
                       </a>  
                       <a class="links" href="#services">
                         <li class="main-banner--menu-list-item">
-                            SERVICIOS
+                            LÍNEAS DE NEGOCIO
                         </li>
                       </a>  
+                      <a class="links" href="#last-projects">
                         <li class="main-banner--menu-list-item">
                             PROYECTOS
                         </li>
-                        <li class="main-banner--menu-list-item">
-                            CERTIFICACIONES
-                        </li>
-                        <li class="main-banner--menu-list-item">
-                            TRABAJA CON NOSOTROS
-                        </li>
+                      </a>
+                        <a class="links" href="./certificaciones.html">
+                            <li class="main-banner--menu-list-item">
+                                CERTIFICACIONES
+                            </li>
+                        </a>
+                        <a class="links" href="#working">
+                            <li class="main-banner--menu-list-item">
+                                TRABAJA CON NOSOTROS
+                            </li>
+                        </a>
+                     
                     </ul>
                 </div>
             </div>
@@ -178,60 +186,16 @@
                     </div>
                 </div>
 
-
-                <!--  <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service1.jpg" alt="">
-                    <div class="content-container--presentation--cards--card-figure-container">
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div class="content-container--presentation--cards--card-figure-container--title-container">
-                        <p class="presentation--cards--card--title">Edificaciónes públicas,<br> y privadas.</p>
-                        <nav></nav>
-                    </div>
-                </div> 
-
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service2.jpg" alt="">
-                    <div class="content-container--presentation--cards--card-figure-container">
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div class="content-container--presentation--cards--card-figure-container--title-container">
-                        <p class="presentation--cards--card--title">Infraestructura<br> vial.</p>
-                        <nav></nav>
-                    </div>
-                </div>
-
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service3.jpg" alt="">
-                    <div class="content-container--presentation--cards--card-figure-container">
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div class="content-container--presentation--cards--card-figure-container--title-container">
-                        <p class="presentation--cards--card--title">Saneamiento e,<br> infraestructura de riego.</p>
-                        <nav></nav>
-                    </div>
-                </div>
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service3.jpg" alt="">
-                    <div class="content-container--presentation--cards--card-figure-container">
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div class="content-container--presentation--cards--card-figure-container--title-container">
-                        <p class="presentation--cards--card--title">Otros<br>Servicios</p>
-                        <nav></nav>
-                    </div>
-                </div>
-                -->
             </div>
 
             <div class="content-container--presentation--buttons">
-                <a href="">
+                <a class="links" href="./servicios.html">
                     <button class="content-container--presentation--buttons--more-services">
                         TODOS LOS SERVICIOS
                         <img src="https://icongr.am/material/unfold-more-horizontal.svg?size=128&color=ffffff" alt="">
                     </button>
                 </a>
-                <a href="">
+                <a href="./contactanos.html">
                     <button class="content-container--presentation--buttons--date">
                         <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt="">
                         RESERVAR UNA CITA
@@ -363,14 +327,16 @@
             </div>
 
             <div class="about-us--buttons-container">
+            <a href="./nosotros.html">
                 <button>
                     ACERCA DE NOSOTROS
                     <img src="https://icongr.am/material/unfold-more-horizontal.svg?size=128&color=ffffff" alt="">
                 </button>
+            </a>   
             </div>
         </div>
 
-        <div class="last-projects">
+        <div class="last-projects" id="last-projects">
             <div class="last-project--content">
                 <p class="last-projects-content--title">
                     ÚLTIMOS PROYECTOS
@@ -432,7 +398,7 @@
         </div>
 
 
-        <div class="working-with-us">
+        <div class="working-with-us" id="working">
             <div class="working-with-us--content">
                 <p class="working-with-us--content--title">
                     ¿INTERESADO EN TRABAJAR CON GROUP ROSAMEL?
@@ -442,20 +408,8 @@
                     de los materiales y productos de los servicios que ofrecemos.
                 </p>
             </div>
-            <div class="working-with-us--buttons-container">
-             <!--    <button class="working-with-us--buttons-container--button">
-                    <div>
-                        <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
-                    </div>
-                    <div>
-                        <p class="working-with-us--buttons-container--button--title">
-                            Lorem, ipsum.
-                        </p>
-                        <p class="working-with-us--buttons-container--button--subtitle">
-                            Lorem, ipsum.
-                        </p>
-                    </div>
-                </button> -->
+            <div class="working-with-us--buttons-container" >
+            <a class="links" href="./servicios.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
@@ -469,6 +423,8 @@
                         </p>
                     </div>
                 </button>
+            </a>
+            <a class="links" href="./contactanos.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
@@ -482,6 +438,8 @@
                         </p>
                     </div>
                 </button>
+            </a>
+            <a class="links" href="./contactanos.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
@@ -495,6 +453,7 @@
                         </p>
                     </div>
                 </button>
+            </a>
             </div>
         </div>
 
@@ -618,10 +577,15 @@
     </section>
     <!-- Button -->
     <div class="call-button">
-        <img src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
+        <img class="call-button-image" src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
     </div>
-    <div class="menu-button">
-        <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff" alt="">
+    <div class="menu-button not-visible">
+        <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff"  alt="">
+    </div>
+    <div class="call-message not-visible">
+        <img height="20px" class="quit" src="https://icongr.am/octicons/x-circle-fill.svg?size=128&color=fe7612" alt="">
+        <a class="links" href=""><p><span>Tel:</span> (+51) 999 999 999</p></a>
+        <a class="links" href=""><p><span>WhatsApp:</span> 999 999 999</p></a>
     </div>
     <!-- End button -->
 
@@ -636,12 +600,15 @@
             <img src="" alt="">
         </div>
     </footer>
+
+    <script src="./js/index.js" type="module" ></script>
     <!-- AOS animated -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 
 </body>
 
