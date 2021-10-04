@@ -5,137 +5,197 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GROUP ROSAMEL| Constructora</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <title>GROUP ROSAMEL|CONSTRUCTORA</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    
+        <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/buttons.css">
+    <!-- AOS animated -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 
+
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header>
         <div class="main-banner">
-            <div class="main-banner--premenu">
-                <div class="main-banner--premenu-section one">
-                    <img class="logo" src="img/logo.png" alt="">
+          
+            <!-- CAROUSEL -->
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="./img/banner.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="animate__jello">CALIDAD</h1>
+                            <img src="https://icongr.am/fontawesome/arrow-circle-down.svg?size=128&color=ffffff"
+                                height="70px" alt="">
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/banner2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>RESPONSABILIDAD</h1>
+                            <img src="https://icongr.am/fontawesome/arrow-circle-down.svg?size=128&color=ffffff"
+                                height="70px" alt="">
+
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="./img/service2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1>SEGURIDAD</h1>
+                            <img src="https://icongr.am/fontawesome/arrow-circle-down.svg?size=128&color=ffffff"
+                                height="70px" alt="">
+
+                        </div>
+                    </div>
                 </div>
-                <div class="main-banner--premenu-section two">
-                    <div>
-                        <img src="https://icongr.am/feather/smartphone.svg?size=128&color=fe7012"
-                            style="height: 30px; width:30px; margin-right: 3px;" alt="">
-                    </div>
-                    <div>
-                        <p class="main-banner--premenu-section-title">SOPORTE Y VENTAS</p>
-                        <a href="">
-                            <p class="main-banner--premenu-section-phone"><strong>(+51)999 999 999</strong> </p>
-                        </a>
-                    </div>
-                </div>
-                <div class="main-banner--premenu-section trhee">
-                    <div>
-                        <img src="https://icongr.am/entypo/clock.svg?size=128&color=fe7012"
-                            style="height: 30px; width:30px; margin-right:3px;" alt="">
-                    </div>
-                    <div>
-                        <p class="main-banner--premenu-section-title">HORARIO DE ATENCIÓN</p>
-                        <p class="main-banner--premenu-section-time"><strong>LU-SA: 8AM - 5:30PM</strong> </p>
-                    </div>
-                </div>
-                <div class="main-banner--premenu-section four">
-                    <button class="main-banner--premenu-section--request">
-                        <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt=""> RESERVAR UNA CITA
-                    </button>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!-- dsadasd -->
+            <div class="button-group">
+                <div class="button-gorup--container">
+                   <a class="links" href="./contactanos.html"><div class="button-group--item">CONTÁCTANOS</div></a> 
+                   <a class="links" href="./inquietudes.html"><div class="button-group--item">CANAL DE INQUIETUDES</div></a>   
                 </div>
             </div>
             <div class="main-banner--menu">
-                <ul class="main-banner--menu--list">
-                    <li class="main-banner--menu-list-item">
-                        HOME
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        ACERCA DE NOSOTROS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        SERVICIOS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        PROYECTOS
-                    </li>
-                    <li class="main-banner--menu-list-item">
-                        CONTACTANOS
-                    </li>
-                </ul>
+                <div>
+                    <img class="logo" src="img/final_logo.png" alt="">
+                </div>
+                <div>
+                    <ul class="main-banner--menu--list">
+                      <a class="links" href="./nosotros.html">
+                        <li class="main-banner--menu-list-item">
+                            NOSOTROS
+                        </li>
+                      </a>  
+                      <a class="links" href="#services">
+                        <li class="main-banner--menu-list-item">
+                            LÍNEAS DE NEGOCIO
+                        </li>
+                      </a>  
+                      <a class="links" href="#last-projects">
+                        <li class="main-banner--menu-list-item">
+                            PROYECTOS
+                        </li>
+                      </a>
+                        <a class="links" href="./certificaciones.html">
+                            <li class="main-banner--menu-list-item">
+                                CERTIFICACIONES
+                            </li>
+                        </a>
+                        <a class="links" href="#working">
+                            <li class="main-banner--menu-list-item">
+                                TRABAJA CON NOSOTROS
+                            </li>
+                        </a>
+                     
+                    </ul>
+                </div>
             </div>
-            <div class="main-banner--promotion">
+            <!--   <div class="main-banner--promotion">
                 <p class="main-banner--promotion--title">
                     Lorem ipsum dolor sit amet, consectetur
                 </p>
                 <p class="main-banner--promotion--description">
                     Lorem ipsum dolor sit amet.
                 </p>
-            </div>
+            </div> -->
         </div>
     </header>
-    <section class='content-container'>
+    <section class='content-container' id="services">
         <div class="content-container--presentation">
             <h2 class="content-container--presentation--title">
                 ¿QUÉ HACEMOS?
             </h2>
+            
             <p class="content-container--presentation--description">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. In, eius! Officiis
                 id non eveniet laboriosam ratione, enim distinctio perferendis eius.
             </p>
 
             <div class="content-container--presentation--cards">
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service1.jpg" alt="">
-                    <div>
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div>
-                        <p class="presentation--cards--card--title">Lorem,<br> ipsum.</p>
-                        <nav></nav>
-                    </div>
-                </div>
-
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service2.jpg" alt="">
-                    <div>
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div>
-                        <p class="presentation--cards--card--title">Lorem, <br> ipsum.</p>
-                        <nav></nav>
+                <div class=" content-container--presentation--cards-card ">
+                    <div class="content-container--presentation--cards-card-faces">
+                        <div class="content-container--presentation--cards-card-faces-front card-blue ">
+                            <p>EDIFICACIONES PÚBLICAS Y PRIVADAS</p>
+                        </div>
+                        <div class="content-container--presentation--cards-card-faces-back">
+                            <p>EDIFICACIONES PÚBLICAS Y PRIVADAS</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="content-container--presentation--cards--card">
-                    <img class="presentation--cards--card--picture" src="./img/service3.jpg" alt="">
-                    <div>
-                        <img src="https://icongr.am/material/bulldozer.svg?size=128&color=fe7012" alt="">
-                    </div>
-                    <div>
-                        <p class="presentation--cards--card--title">Lorem,<br> ipsum.</p>
-                        <nav></nav>
+                <div class=" content-container--presentation--cards-card">
+                    <div class="content-container--presentation--cards-card-faces">
+                        <div class="content-container--presentation--cards-card-faces-front card-brown">
+                            <p>INFRAESTRUCTURA VIAL</p>
+                        </div>
+                        <div class="content-container--presentation--cards-card-faces-back">
+                            <p>INFRAESTRUCTURA VIAL</p>
+                        </div>
                     </div>
                 </div>
+
+                 <div class=" content-container--presentation--cards-card">
+                    <div class="content-container--presentation--cards-card-faces">
+                        <div class="content-container--presentation--cards-card-faces-front card-green">
+                            <p>SANEAMIENTO E INFRAESTRUCTURA DE RIEGO</p>
+                        </div>
+                        <div class="content-container--presentation--cards-card-faces-back">
+                            <p>SANEAMIENTO E INFRAESTRUCTURA DE RIEGO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" content-container--presentation--cards-card">
+                    <div class="content-container--presentation--cards-card-faces">
+                        <div class="content-container--presentation--cards-card-faces-front ">
+                            <p>OTROS SERVICIOS</p>
+                        </div>
+                        <div class="content-container--presentation--cards-card-faces-back">
+                            <p>OTROS SERVICIOS</p>
+                         
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
             <div class="content-container--presentation--buttons">
-                <a href="">
+                <a class="links" href="./servicios.html">
                     <button class="content-container--presentation--buttons--more-services">
                         TODOS LOS SERVICIOS
                         <img src="https://icongr.am/material/unfold-more-horizontal.svg?size=128&color=ffffff" alt="">
                     </button>
                 </a>
-                <a href="">
+                <a href="./contactanos.html">
                     <button class="content-container--presentation--buttons--date">
                         <img src="https://icongr.am/feather/mail.svg?size=128&color=ffffff" alt="">
                         RESERVAR UNA CITA
@@ -222,54 +282,61 @@
                 <div class="about-us--cards--card">
                     <img class="about-us--cards--card--picture" src="./img/service1.jpg" alt="">
                     <p class="about-us--cards--card--title">
-                        Lorem, ipsum.
+                       SATISFACEMOS ESPECTATIVAS
                     </p>
-                    <p class="about-us--cards--card--description">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Illo iusto aperiam recusandae provident adipisci
-                        error dolores incidunt dignissimos soluta placeat.
+                    <p class="about-us--cards--card--description">
+                        Durante nuestro trabajo hemos estado siguiendo nuestro compromiso con los 
+                        clientes y todas las partes interesadas de brindar los mejores 
+                        servicios y mostrar resultados de primera clase.
                     </p>
                 </div>
                 <div class="about-us--cards--card">
                     <img class="about-us--cards--card--picture" src="./img/service2.jpg" alt="">
                     <p class="about-us--cards--card--title">
-                        Lorem, ipsum.
+                        ALTA CALIDAD
                     </p>
-                    <p class="about-us--cards--card--description">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Illo iusto aperiam recusandae provident adipisci
-                        error dolores incidunt dignissimos soluta placeat.
+                    <p class="about-us--cards--card--description">
+                        Utilizamos los mejores materiales y las últimas tecnologías, por eso confiamos 
+                        en la calidad de las carreteras que hacemos. Nuestra experiencia y nuestra 
+                        vida empresarial a largo plazo demuestran que es cierto.
                     </p>
                 </div>
                 <div class="about-us--cards--card">
                     <img class="about-us--cards--card--picture" src="./img/service3.jpg" alt="">
                     <p class="about-us--cards--card--title">
-                        Lorem, ipsum.
+                        CONCIENCIA DE SEGURIDAD
                     </p>
-                    <p class="about-us--cards--card--description">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Illo iusto aperiam recusandae provident adipisci
-                        error dolores incidunt dignissimos soluta placeat.
+                    <p class="about-us--cards--card--description">
+                        Un entorno de trabajo seguro requiere un buen proceso, compromiso
+                         y conciencia total sobre la seguridad. Todos y cada uno de
+                          los miembros deben comprender que la seguridad es la misión principal 
+                          de BuildWall.
                     </p>
                 </div>
                 <div class="about-us--cards--card">
                     <img class="about-us--cards--card--picture" src="./img/worker.jpg" alt="">
                     <p class="about-us--cards--card--title">
-                        Lorem, ipsum.
+                        VALOR AGREGADO
                     </p>
-                    <p class="about-us--cards--card--description">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Illo iusto aperiam recusandae provident adipisci
-                        error dolores incidunt dignissimos soluta placeat.
+                    <p class="about-us--cards--card--description">
+                        Defendemos seguir los valores de nuestra empresa, que mantienen nuestro 
+                        trabajo exitoso. Siempre intentamos hacer mejor nuestro trabajo 
+                        y presentar a nuestros contratistas un nuevo camino duradero.
                     </p>
                 </div>
             </div>
 
             <div class="about-us--buttons-container">
+            <a href="./nosotros.html">
                 <button>
                     ACERCA DE NOSOTROS
                     <img src="https://icongr.am/material/unfold-more-horizontal.svg?size=128&color=ffffff" alt="">
                 </button>
+            </a>   
             </div>
         </div>
 
-        <div class="last-projects">
+        <div class="last-projects" id="last-projects">
             <div class="last-project--content">
                 <p class="last-projects-content--title">
                     ÚLTIMOS PROYECTOS
@@ -331,70 +398,62 @@
         </div>
 
 
-        <div class="working-with-us">
+        <div class="working-with-us" id="working">
             <div class="working-with-us--content">
                 <p class="working-with-us--content--title">
                     ¿INTERESADO EN TRABAJAR CON GROUP ROSAMEL?
                 </p>
-                <p class="working-with-us--content--description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum est n
-                    am quibusdam possimus accusamus quas consequuntur omnis dignissimos
-                    voluptates velit.
+                <p class="working-with-us--content--description">            
+                    Contamos con la experiencia y los conocimientos necesarios para probar y evaluar el rendimiento y la durabilidad 
+                    de los materiales y productos de los servicios que ofrecemos.
                 </p>
             </div>
-            <div class="working-with-us--buttons-container">
+            <div class="working-with-us--buttons-container" >
+            <a class="links" href="./servicios.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
                     </div>
                     <div>
                         <p class="working-with-us--buttons-container--button--title">
-                            Lorem, ipsum.
+                            NUESTROS SERVICIOS
                         </p>
                         <p class="working-with-us--buttons-container--button--subtitle">
-                            Lorem, ipsum.
+                            ¿Qué hacemos?
                         </p>
                     </div>
                 </button>
+            </a>
+            <a class="links" href="./contactanos.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
                     </div>
                     <div>
                         <p class="working-with-us--buttons-container--button--title">
-                            Lorem, ipsum.
+                            RESERVAR UNA CITA
                         </p>
                         <p class="working-with-us--buttons-container--button--subtitle">
-                            Lorem, ipsum.
+                            Obtener un formulario de cotización
                         </p>
                     </div>
                 </button>
+            </a>
+            <a class="links" href="./contactanos.html">
                 <button class="working-with-us--buttons-container--button">
                     <div>
                         <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
                     </div>
                     <div>
                         <p class="working-with-us--buttons-container--button--title">
-                            Lorem, ipsum.
+                            CONTACTO
                         </p>
                         <p class="working-with-us--buttons-container--button--subtitle">
-                            Lorem, ipsum.
+                            Contactate con nosotros
                         </p>
                     </div>
                 </button>
-                <button class="working-with-us--buttons-container--button">
-                    <div>
-                        <img src="https://icongr.am/material/truck-outline.svg?size=128&color=ffffff" alt="">
-                    </div>
-                    <div>
-                        <p class="working-with-us--buttons-container--button--title">
-                            Lorem, ipsum.
-                        </p>
-                        <p class="working-with-us--buttons-container--button--subtitle">
-                            Lorem, ipsum.
-                        </p>
-                    </div>
-                </button>
+            </a>
             </div>
         </div>
 
@@ -418,12 +477,12 @@
         </div>
 
         <div class="compact-container">
-           
+
             <div class="compact-container--item">
                 <p class="compact-container--item--title">
                     ACERCA DE LA EMPRESA
                 </p>
-                <img class="compact-container--item--logo" src="./img/logo.png" alt="">
+                <img class="compact-container--item--logo" src="./img/final_logo.png" alt="">
                 <p class="compact-container--item--description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam unde dicta,
                     cupiditate distinctio laudantium illum ea iure temporibus laboriosam expedita.
@@ -434,11 +493,11 @@
                     PROYECTO MÁS RECIENTE
                 </p>
                 <img class="compact-container--item--img-project" src="./img/banner1.jpg" alt="">
-               <a class="compact-container--item--link-subtitle" href="">
-                <p class="compact-container--item--subtitle">
-                    Lorem ipsum dolor sit amet consectetur.
-                </p>
-               </a>
+                <a class="compact-container--item--link-subtitle" href="">
+                    <p class="compact-container--item--subtitle">
+                        Lorem ipsum dolor sit amet consectetur.
+                    </p>
+                </a>
             </div>
 
             <div class="compact-container--item">
@@ -508,7 +567,7 @@
                     <li class="compact-container--item--contact-list--item">
                         <p>
                             <img src="https://icongr.am/feather/mail.svg?size=128&color=fe7012" alt="">
-                            Email: <a href=""><span>asdasd@rosamel.com</span></a>
+                            Email: <a href=""><span>contacto@rosamel.com</span></a>
                         </p>
                     </li>
                 </ul>
@@ -517,12 +576,17 @@
         </div>
     </section>
     <!-- Button -->
-        <div class="call-button">
-          <img src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
-        </div>
-        <div class="menu-button">
-            <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff" alt="">
-        </div>
+    <div class="call-button">
+        <img class="call-button-image" src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
+    </div>
+    <div class="menu-button not-visible">
+        <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff"  alt="">
+    </div>
+    <div class="call-message not-visible">
+        <img height="20px" class="quit" src="https://icongr.am/octicons/x-circle-fill.svg?size=128&color=fe7612" alt="">
+        <a class="links" href=""><p><span>Tel:</span> (+51) 999 999 999</p></a>
+        <a class="links" href=""><p><span>WhatsApp:</span> 999 999 999</p></a>
+    </div>
     <!-- End button -->
 
     <footer class="footer">
@@ -536,6 +600,15 @@
             <img src="" alt="">
         </div>
     </footer>
+
+    <script src="./js/index.js" type="module" ></script>
+    <!-- AOS animated -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous">
+    </script>
 
 </body>
 
