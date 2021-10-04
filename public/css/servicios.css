@@ -1,338 +1,357 @@
-*{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-:root{
-
-    --main-color: #222931;
-    --second-color: #fe7012;
-    --green-color: #43aa5f;
-    --blue-color: #0d6fe7;
-    --brown-color: #573418;
-}
-.links{
-    text-decoration: none;
-    color: inherit;
-}
-
-.btn-active{
-    background-color: var(--second-color);
-}
-
-.button-group{
-    width: 100%;
-    border-top: 3px solid var(--second-color);
-    text-align: right;
-    position: absolute;
-    top: 0;   
-    z-index: 100;
-}
-.button-group .button-gorup--container{
-    width: fit-content;
-    background-color: var(--second-color);
-    right: 200px;
-    position: absolute;
-}
-.button-group--item{
-    display: inline-block;
-    color: #fff;
-    font-size: 11px;
-    font-weight: bold;
-    letter-spacing: 0.7px;
-    font-family: 'Hind', sans-serif;
-    padding: 8px 10px ;
-}
-
-.logo{
-    height: 100px;
-    margin-right: 200px;
-}
-header{
-    position: relative;
-    background-image: url(../img/service_ban.jpg);
-    width: 100%;
-    height: 75vh;
-    background-position: 0px -200px;
-    background-size: cover;
+    * {
+        margin: 0;
+        font-family: 'Open Sans', sans-serif;
+    }
     
-}
-
-.main-banner--menu{
-    height: fit-content;
-    background-color: #3f393600;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    left: 0;
-    text-align: center;
-    z-index: 100;
-   
-}
-.main-banner--menu div{
-    width: fit-content;
-    display: inline-block;
-    text-align: left;
-    vertical-align: middle; 
-    z-index: 100; 
-}
-
-.main-banner--menu--list{
-    list-style: none;
-    text-align: right;
-    padding-left: 15px;
-    border-bottom: 1px solid #fff; 
-    margin-left: 100px;   
-}
-.main-banner--menu-list-item{
-    display: inline-block;
-    padding: 15px 12px;  
-    color: #fff;
-    font-size: 15px;
-    font-weight: 900;
-    letter-spacing: 0.7px;
-    font-family: 'Hind', sans-serif;
-    cursor: pointer;
-}
-
-.main-banner--menu-list-item:hover{
-    background-color: var(--second-color);
-}
-
-.main-banner--promotion{
-    position: absolute;
-    background-color: rgba(255, 255, 255, 0.74);
-    top: 500px;
-    left: 25%;
-    right: 25%;
-    padding: 30px 30px;
-    text-align: left;
-}
-.main-banner--promotion--title{
-    color: var(--main-color);
-    font-size: 40px;
-    font-weight: 600;
-    font-family: 'Hind', sans-serif;
-} 
-
-
-.main-banner--title-container{
-    position: absolute;
-    bottom: 25px;
-    right: 0;
-    left: 0;
-    text-align: center;
-}
-
-.main-banner--title-container h1{
-    font-weight: bold;
-    font-size: 70px;
-    font-family: 'Prompt', sans-serif;
-    color: #fff;
-}
-
-
-.business{
-    width: 100%;
-    height: fit-content;
-    position: relative;
-} 
-
-.business--edification{
-    width: 100%;
-    height: 95vh;  
-}
-.business--edification-item{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;    
-    width: 50%!important;
-    height: 100%;
-}
-
-.business--edification-container-image{
-    position: absolute;  
-    width: 100%;
-    height: 95vh;  
-}
-
-.business--edification-container-description{
-    background-image: url(../img/white_background.jpg);
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;    
-    margin: 0;
+     :root {
+        --main-color: #222931;
+        --second-color: #fe7012;
+        --green-color: #43aa5f;
+        --blue-color: #0d6fe7;
+        --brown-color: #573418;
+    }
     
-}
-
-.business--infrastructure, .business--irrigation, .business--others{
-    width: 100%;
-    position: relative;
-    height: 95vh;  
-}
-
-
-.carousel{
-    position: relative!important;
-    height: 95vh;  
+    .links {
+        text-decoration: none;
+        color: inherit;
+    }
     
+    .btn-active {
+        background-color: var(--second-color);
+    }
     
-}
-.carousel-item{
-    height: 95vh;  
-}
-.carousel-item img{
-    width: 100%;
-    height: 100%;
-}
-
-
-.business--infrastructure{
-    height: 95vh;
-}
-
-.business--infrastructure-item{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;    
-    width: 50%!important;
-    height: 100%;
-}
-.business--infrastructure-container-description{
-    background-image: url(../img/white_background.jpg);
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;    
-    margin: 0;
-    right: 0;
-    position: absolute;
-}
-.business--infrastructure-container-image{
-    position: absolute;  
-    width: 100%;
-    height: 95vh; 
-
-}
-.business--irrigation-item{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;    
-    width: 50%!important;
-    height: 100%;
-}
-
-.business--irrigation-container-description{
-    background-image: url(../img/white_background.jpg);
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;    
-    margin: 0;
-    left: 0;
-    position: absolute;
-}
-
-.business--irrigation-container-image{
-    position: absolute;
-    right: 0;
-}
-.business--others{
-    width: 100%;
-}
-
-.business--others-item{
-    display: inline-block;
-    vertical-align: top;
-    text-align: center;    
-    width: 50%!important;
-    height: 100%;
-}
-
-.business--others-container-description{
-    background-image: url(../img/white_background.jpg);
-    width: 100%;
-    height: 100%;
-    vertical-align: middle;    
-    margin: 0;
-    right: 0;
-    position: absolute;
-}
-
-.footer{
-    height: fit-content;
-    width: 100%;
-    padding: 30px 0px;
-    background-color: var(--main-color);
-    text-align: center;
-}
-.footer div{
-    display: inline-block;
-    width: 40%;
-    margin: 0px auto;
-}
-.footer--right-reserved p{
-    font-size: 14px;
-    color: #5f656d;
-    font-family: 'Hind', sans-serif;
-    font-weight: 500;
-    text-align: left;
-    margin: 0;
-}
-
-.business-text{
-    width: 50%;
-    text-align: left;
-    margin: auto auto;
-    height: fit-content;
-    margin-top: 150px;
-
-}
-.business--title{
-    color: var(--second-color);
-    font-weight: 900;
-}
-.business--description{
-    margin-top: 30px;
-    line-height: 35px;
-    font-weight: 600;
-    color: var(--main-color);
-    text-align: justify;
-    font-size: 18px;
-}
-
-.business--projects{
-    font-weight: 600;
-    color: var(--second-color);
-    text-align: right;
-    font-size: 18px;
-
-}
-
-@media only screen and (max-width: 1600px) {   
-    .main-banner--menu{
-        height: fit-content;
-        width: 100%;       
+    .button-group {
+        width: 100%;
+        border-top: 3px solid var(--second-color);
+        text-align: right;
         position: absolute;
-        top: 95px;
+        top: 0;
+        z-index: 100;
+    }
+    
+    .button-group .button-gorup--container {
+        width: fit-content;
+        background-color: var(--second-color);
+        right: 200px;
+        position: absolute;
+    }
+    
+    .button-group--item {
+        display: inline-block;
+        color: #fff;
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0.7px;
+        font-family: 'Hind', sans-serif;
+        padding: 8px 10px;
+    }
+    
+    .logo {
+        height: 100px;
+        margin-right: 200px;
+    }
+    
+    header {
+        position: relative;
+        background-image: url(../img/service_ban.jpg);
+        width: 100%;
+        height: 75vh;
+        background-position: 0px -200px;
+        background-size: cover;
+    }
+    
+    .main-banner--menu {
+        height: fit-content;
+        background-color: #3f393600;
+        position: absolute;
+        top: 50px;
         right: 0;
         left: 0;
-        margin: auto;
+        text-align: center;
+        z-index: 100;
     }
-
-    .main-banner--menu--list{
-        list-style: none;
-        text-align: left;
-        padding-left: 15px;
-
-    }
-    .main-banner--menu-list-item{
+    
+    .main-banner--menu div {
+        width: fit-content;
         display: inline-block;
-        padding: 15px 8px;  
+        text-align: left;
+        vertical-align: middle;
+        z-index: 100;
+    }
+    
+    .main-banner--menu--list {
+        list-style: none;
+        text-align: right;
+        padding-left: 15px;
+        border-bottom: 1px solid #fff;
+        margin-left: 100px;
+    }
+    
+    .main-banner--menu-list-item {
+        display: inline-block;
+        padding: 15px 12px;
         color: #fff;
-        font-size: 12px;
-        font-weight: 600;
+        font-size: 15px;
+        font-weight: 900;
         letter-spacing: 0.7px;
-        font-style: normal;
         font-family: 'Hind', sans-serif;
         cursor: pointer;
-    }  
-}
+    }
+    
+    .main-banner--menu-list-item:hover {
+        background-color: var(--second-color);
+    }
+    
+    .main-banner--promotion {
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.74);
+        top: 500px;
+        left: 25%;
+        right: 25%;
+        padding: 30px 30px;
+        text-align: left;
+    }
+    
+    .main-banner--promotion--title {
+        color: var(--main-color);
+        font-size: 40px;
+        font-weight: 600;
+        font-family: 'Hind', sans-serif;
+    }
+    
+    .main-banner--title-container {
+        position: absolute;
+        bottom: 25px;
+        right: 0;
+        left: 0;
+        text-align: center;
+    }
+    
+    .main-banner--title-container h1 {
+        font-weight: bold;
+        font-size: 70px;
+        font-family: 'Prompt', sans-serif;
+        color: #fff;
+    }
+    
+    .business {
+        width: 100%;
+        height: fit-content;
+        position: relative;
+    }
+    
+    .business--edification {
+        width: 100%;
+        height: 95vh;
+    }
+    
+    .business--edification-item {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 50%!important;
+        height: 100%;
+    }
+    
+    .business--edification-container-image {
+        position: absolute;
+        width: 100%;
+        height: 95vh;
+    }
+    
+    .business--edification-container-description {
+        background-image: url(../img/white_background.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        margin: 0;
+    }
+    
+    .business--infrastructure,
+    .business--irrigation,
+    .business--others {
+        width: 100%;
+        position: relative;
+        height: 95vh;
+    }
+    
+    .carousel {
+        position: relative!important;
+        height: 95vh;
+    }
+    
+    .carousel-item {
+        height: 95vh;
+    }
+    
+    .carousel-item img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .business--infrastructure {
+        height: 95vh;
+    }
+    
+    .business--infrastructure-item {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 50%!important;
+        height: 100%;
+    }
+    
+    .business--infrastructure-container-description {
+        background-image: url(../img/white_background.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        margin: 0;
+        right: 0;
+        position: absolute;
+    }
+    
+    .business--infrastructure-container-image {
+        position: absolute;
+        width: 100%;
+        height: 95vh;
+    }
+    
+    .business--irrigation-item {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 50%!important;
+        height: 100%;
+    }
+    
+    .business--irrigation-container-description {
+        background-image: url(../img/white_background.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        margin: 0;
+        left: 0;
+        position: absolute;
+    }
+    
+    .business--irrigation-container-image {
+        position: absolute;
+        right: 0;
+    }
+    
+    .business--others {
+        width: 100%;
+    }
+    
+    .business--others-item {
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        width: 50%!important;
+        height: 100%;
+    }
+    
+    .business--others-container-description {
+        background-image: url(../img/white_background.jpg);
+        width: 100%;
+        height: 100%;
+        vertical-align: middle;
+        margin: 0;
+        right: 0;
+        position: absolute;
+    }
+    
+    .footer {
+        height: fit-content;
+        width: 100%;
+        padding: 30px 0px;
+        background-color: var(--main-color);
+        text-align: center;
+    }
+    
+    .footer div {
+        display: inline-block;
+        width: 40%;
+        margin: 0px auto;
+    }
+    
+    .footer--right-reserved p {
+        font-size: 14px;
+        color: #5f656d;
+        font-family: 'Hind', sans-serif;
+        font-weight: 500;
+        text-align: left;
+        margin: 0;
+    }
+    
+    .business-text {
+        width: 50%;
+        text-align: left;
+        margin: auto auto;
+        height: fit-content;
+        margin-top: 150px;
+    }
+    
+    .business--title {
+        color: var(--second-color);
+        font-weight: 900;
+    }
+    
+    .business--description {
+        margin-top: 30px;
+        line-height: 35px;
+        font-weight: 600;
+        color: var(--main-color);
+        text-align: justify;
+        font-size: 18px;
+    }
+    
+    .business--projects {
+        font-weight: 600;
+        color: var(--second-color);
+        text-align: right;
+        font-size: 18px;
+    }
+    
+    @media only screen and (max-width: 1600px) {
+        .main-banner--menu {
+            height: fit-content;
+            width: 100%;
+            position: absolute;
+            top: 95px;
+            right: 0;
+            left: 0;
+            margin: auto;
+        }
+        .main-banner--menu--list {
+            list-style: none;
+            text-align: left;
+            padding-left: 15px;
+        }
+        .main-banner--menu-list-item {
+            display: inline-block;
+            padding: 15px 8px;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.7px;
+            font-style: normal;
+            font-family: 'Hind', sans-serif;
+            cursor: pointer;
+        }
+    }
+    
+    @media only screen and (max-width: 1400px) {
+        .logo {
+            margin: 0;
+        }
+        .business-text {
+            width: 80%;
+            text-align: left;
+            margin: auto auto;
+            height: fit-content;
+            margin-left: 50px;
+            margin: 50px;
+        }
+    }

@@ -1,65 +1,67 @@
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
 
-:root{
-
+:root {
     --main-color: #222931;
     --second-color: #fe7012;
     --green-color: #43aa5f;
     --blue-color: #0d6fe7;
     --brown-color: #573418;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: inherit;
 }
 
-.btn-active{
+.btn-active {
     background-color: #FFF;
     color: #222931!important;
 }
 
-.button-group{
+.button-group {
     width: 100%;
     border-top: 3px solid var(--second-color);
     text-align: right;
     position: absolute;
-    top: 0;   
+    top: 0;
     z-index: 100;
 }
-.button-group .button-gorup--container{
+
+.button-group .button-gorup--container {
     width: fit-content;
     background-color: var(--second-color);
     right: 200px;
     position: absolute;
 }
-.button-group--item{
+
+.button-group--item {
     display: inline-block;
     color: #fff;
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 0.7px;
     font-family: 'Hind', sans-serif;
-    padding: 8px 10px ;
+    padding: 8px 10px;
 }
 
-.logo{
+.logo {
     height: 100px;
     margin-right: 200px;
 }
-header{
+
+header {
     position: relative;
     background-image: url(../img/inquietudes-banner.jpg);
     width: 100%;
     height: 75vh;
     background-position: 0px -100px;
     background-size: cover;
-    
 }
 
-.main-banner--menu{
+.main-banner--menu {
     height: fit-content;
     background-color: #3f393600;
     position: absolute;
@@ -68,26 +70,27 @@ header{
     left: 0;
     text-align: center;
     z-index: 100;
-   
 }
-.main-banner--menu div{
+
+.main-banner--menu div {
     width: fit-content;
     display: inline-block;
     text-align: left;
-    vertical-align: middle; 
-    z-index: 100; 
+    vertical-align: middle;
+    z-index: 100;
 }
 
-.main-banner--menu--list{
+.main-banner--menu--list {
     list-style: none;
     text-align: right;
     padding-left: 15px;
-    border-bottom: 1px solid #fff; 
-    margin-left: 100px;   
+    border-bottom: 1px solid #fff;
+    margin-left: 100px;
 }
-.main-banner--menu-list-item{
+
+.main-banner--menu-list-item {
     display: inline-block;
-    padding: 15px 12px;  
+    padding: 15px 12px;
     color: #fff;
     font-size: 15px;
     font-weight: 900;
@@ -96,11 +99,11 @@ header{
     cursor: pointer;
 }
 
-.main-banner--menu-list-item:hover{
+.main-banner--menu-list-item:hover {
     background-color: var(--second-color);
 }
 
-.main-banner--promotion{
+.main-banner--promotion {
     position: absolute;
     background-color: rgba(255, 255, 255, 0.74);
     top: 500px;
@@ -109,15 +112,15 @@ header{
     padding: 30px 30px;
     text-align: left;
 }
-.main-banner--promotion--title{
+
+.main-banner--promotion--title {
     color: var(--main-color);
     font-size: 40px;
     font-weight: 600;
     font-family: 'Hind', sans-serif;
-} 
+}
 
-
-.main-banner--title-container{
+.main-banner--title-container {
     position: absolute;
     bottom: 25px;
     right: 0;
@@ -125,29 +128,32 @@ header{
     text-align: center;
 }
 
-.main-banner--title-container h1{
+.main-banner--title-container h1 {
     font-weight: bold;
     font-size: 70px;
     font-family: 'Prompt', sans-serif;
     color: #fff;
 }
 
-.concerns{
-   width: 100%; 
-   height: fit-content;
+.concerns {
+    width: 100%;
+    height: fit-content;
 }
-.concerns--description{
+
+.concerns--description {
     width: 70%;
     margin: 35px auto;
     text-align: center;
 }
-.concerns--description-title{
+
+.concerns--description-title {
     color: var(--second-color);
     margin-top: 20px;
     font-size: 40px;
     font-weight: 900;
 }
-.concerns--description p{
+
+.concerns--description p {
     font-size: 16px;
     color: var(--main-color);
     font-weight: 600;
@@ -155,18 +161,20 @@ header{
     margin-top: 20px;
 }
 
-.concerns--form-container{
+.concerns--form-container {
     width: 100%;
     text-align: center;
     margin-bottom: 35px;
 }
-.concerns--form-container form{
+
+.concerns--form-container form {
     text-align: left;
     width: 700px;
     margin: 0px auto;
     /* background-color: aqua; */
 }
-.concerns--form-container form input{
+
+.concerns--form-container form input {
     height: 40px;
     width: 100%;
     border: none;
@@ -174,9 +182,9 @@ header{
     margin-top: 25px;
     font-size: 16px;
     font-weight: 600;
-
 }
-.concerns--form-container form textarea{
+
+.concerns--form-container form textarea {
     width: 100%;
     margin-top: 25px;
     border: none;
@@ -184,29 +192,33 @@ header{
     font-weight: 600;
     background-color: rgba(136, 136, 136, 0.178);
 }
-.concerns--form-container form .file{
+
+.concerns--form-container form .file {
     border: 2px solid rgba(136, 136, 136, 0.178);
     border-radius: 2px;
     height: 55px;
 }
-.concerns--form-container form  .send-button{
+
+.concerns--form-container form .send-button {
     background-color: var(--second-color);
     color: #fff;
 }
 
-.footer{
+.footer {
     height: fit-content;
     width: 100%;
     padding: 30px 0px;
     background-color: var(--main-color);
     text-align: center;
 }
-.footer div{
+
+.footer div {
     display: inline-block;
     width: 40%;
     margin: 0px auto;
 }
-.footer--right-reserved p{
+
+.footer--right-reserved p {
     font-size: 14px;
     color: #5f656d;
     font-family: 'Hind', sans-serif;
@@ -215,26 +227,24 @@ header{
     margin: 0;
 }
 
-@media only screen and (max-width: 1600px) {   
-    .main-banner--menu{
+@media only screen and (max-width: 1600px) {
+    .main-banner--menu {
         height: fit-content;
-        width: 100%;       
+        width: 100%;
         position: absolute;
         top: 95px;
         right: 0;
         left: 0;
         margin: auto;
     }
-
-    .main-banner--menu--list{
+    .main-banner--menu--list {
         list-style: none;
         text-align: left;
         padding-left: 15px;
-
     }
-    .main-banner--menu-list-item{
+    .main-banner--menu-list-item {
         display: inline-block;
-        padding: 15px 8px;  
+        padding: 15px 8px;
         color: #fff;
         font-size: 12px;
         font-weight: 600;
@@ -242,5 +252,11 @@ header{
         font-style: normal;
         font-family: 'Hind', sans-serif;
         cursor: pointer;
-    }  
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .logo {
+        margin: 0;
+    }
 }
