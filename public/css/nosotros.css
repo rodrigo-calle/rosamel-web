@@ -3,7 +3,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-:root {
+ :root {
     --main-color: #222931;
     --second-color: #fe7012;
     --green-color: #43aa5f;
@@ -527,11 +527,11 @@ header {
         padding-top: 50px;
     }
     /* .values-container-title{
-        background-color: lawngreen;   
-        position: absolute;
-        height: 400px;
-    
-    } */
+background-color: lawngreen;   
+position: absolute;
+height: 400px;
+
+} */
     .values-title {
         color: var(--second-color);
         font-size: 60px;
@@ -563,5 +563,139 @@ header {
         left: 23%;
         top: 4%;
         height: 90vh;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .main-banner--menu,
+    .button-group {
+        display: none;
+    }
+    .main-banner--title-container h1 {
+        font-size: 40px;
+    }
+    .main-banner--title-container img {
+        height: 50px;
+    }
+    header {
+        height: 40vh;
+    }
+    .first-section {
+        padding-bottom: 30px;
+    }
+    .first-section--item {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .first-section--item-title {
+        font-size: 30px;
+        width: 80%;
+        line-height: normal;
+        margin: 0px auto;
+        margin-bottom: 20px;
+    }
+    .first-section--item-title-description {
+        width: 80%;
+        margin: 10px auto;
+    }
+    .first-section--item {
+        padding: 0;
+    }
+    .first-section--item-container-images {
+        display: none;
+    }
+    .first-section--item-title-certification {
+        padding-right: 50px;
+        margin-top: 25px;
+    }
+    .second-section--item {
+        width: 100%;
+        text-align: center;
+    }
+    .second-section-item-sitem {
+        width: 100%;
+    }
+    .second-section-item-sitem p {
+        width: 90%;
+        margin: 0px auto;
+    }
+    .second-section--item-mision,
+    .second-section--item-vision {
+        width: 100%;
+    }
+    .second-section--item-mision img,
+    .second-section--item-mision h1,
+    .second-section--item-vision img,
+    .second-section--item-vision h1 {
+        margin-left: 20px;
+    }
+    .container-img-values {
+        display: none;
+    }
+    .img-values {
+        display: none;
+    }
+    .second-section--item-picture-map {
+        display: none;
+    }
+    .values {
+        height: fit-content;
+    }
+    .second-section--item-styles {
+        padding: 45px 0px;
+    }
+    .second-section--item-title {
+        font-size: 30px;
+        line-height: normal;
+    }
+    .second-section--item-subitem img {
+        vertical-align: top;
+    }
+    .values-container-title img {
+        height: 90px;
+    }
+    .values-title {
+        font-size: 45px;
+    }
+    .values--item img {
+        height: 60px;
+    }
+    .politics-container {
+        display: inline-block;
+    }
+    .politics--container-img img {
+        height: 60px;
+    }
+    .politics-section--item-title {
+        width: 80%;
+    }
+    .politics-section--item-title {
+        font-size: 20px;
+    }
+    .politics-section--item {
+        margin: 0px;
+        display: block;
+    }
+    .politics-section--item {
+        width: 100%;
+    }
+    .politics--view-more {
+        width: 100%;
+        text-align: right;
+        width: 90%;
+    }
+    .politics-section--item a {
+        margin-right: 20px;
+    }
+    .politics--container h1 {
+        font-size: 28px;
+    }
+    .politics {
+        padding-bottom: 0px;
+    }
+    .menu-responsive-phone {
+        height: 100vh!important;
+        top: 0;
     }
 }

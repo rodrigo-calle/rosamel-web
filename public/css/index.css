@@ -820,6 +820,38 @@
     text-align: left;
 }
 
+@media only screen and (max-width: 1600px) {
+    .main-banner--menu {
+        height: fit-content;
+        width: 100%;
+        position: absolute;
+        top: 95px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .main-banner--menu--list {
+        list-style: none;
+        text-align: left;
+        padding-left: 15px;
+    }
+    .main-banner--menu-list-item {
+        display: inline-block;
+        padding: 15px 8px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: 0.7px;
+        font-style: normal;
+        font-family: 'Hind', sans-serif;
+        cursor: pointer;
+    }
+    .about-us--cards--card {
+        width: 250px;
+        margin: 0px 20px;
+    }
+}
+
 @media only screen and (max-width: 1400px) {
     .main-banner--menu {
         height: fit-content;
@@ -1135,11 +1167,22 @@
 @media only screen and (max-width: 1000px) {
     .main-banner {
         width: 100%;
-        height: 550px;
-        background-image: url('../img/banner.png');
+        height: 50vh;
         background-size: cover;
         background-repeat: no-repeat;
         text-align: center;
+    }
+    .carousel {
+        height: 60vh;
+    }
+    .carousel-inner {
+        height: 100%;
+    }
+    .carousel-item {
+        height: 100%;
+    }
+    .carousel-item img {
+        height: 100%;
     }
     .main-banner--premenu {
         position: absolute;
@@ -1174,84 +1217,26 @@
         vertical-align: top;
         margin: auto 15px;
     }
-    .two {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
     .main-banner--premenu-section-time,
     .main-banner--premenu-section-phone {
         visibility: hidden;
         height: 0px;
         width: 0px
     }
-    .main-banner--premenu-section a {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
-    .main-banner--premenu-section-phone:hover {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
-    .trhee {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
-    .four {
-        height: 0px;
-        width: 0px
-    }
-    .main-banner--premenu-section div {
-        display: inline-block;
-        vertical-align: top;
-    }
-    .main-banner--premenu-section--request {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
-    .main-banner--premenu-section--request img {
-        visibility: hidden;
-        height: 0px;
-        width: 0px
-    }
     .main-banner--menu {
         visibility: hidden;
-        height: 0px;
-        width: 0px;
     }
-    .main-banner--promotion {
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.74);
-        top: 200px;
-        left: 5%;
-        right: 5%;
-        padding: 30px 30px;
-        text-align: left;
-    }
-    .main-banner--promotion--title {
-        color: var(--main-color);
-        font-size: 40px;
-        font-weight: 600;
-        font-family: 'Hind', sans-serif;
-    }
-    .main-banner--promotion--description {
-        font-weight: bold;
-        color: var(--second-color);
-        font-family: 'Hind', sans-serif;
-        font-size: 25px;
+    .button-group {
+        visibility: hidden;
     }
     .content-container {
-        width: 100%;
-        text-align: center;
+        margin-top: 100px;
         height: fit-content;
     }
     .content-container--presentation {
-        width: 70%;
-        margin: 45px auto;
+        width: 100%;
+        margin: 0px;
+        padding: 20px auto;
     }
     .content-container--presentation--title {
         color: var(--main-color);
@@ -1261,82 +1246,20 @@
     }
     .content-container--presentation--description {
         color: var(--main-color);
-        margin-top: 35px;
+        margin: 20px auto;
         font-size: 15px;
+        width: 85%;
         font-family: 'Hind', sans-serif;
     }
     .content-container--presentation--cards {
         width: 100%;
         text-align: center;
     }
-    .content-container--presentation--cards--card {
-        display: inline-block;
-        height: fit-content;
-        width: 90%;
-        margin: 20px auto;
-        text-align: left;
-    }
-    .presentation--cards--card--picture {
-        height: 200px;
-        width: 100%;
-    }
-    .presentation--cards--card--title {
-        color: var(--main-color);
-        font-size: 25px;
-        font-weight: 600;
-        font-family: 'Hind', sans-serif;
-    }
-    .content-container--presentation--cards--card div {
-        display: inline-block;
-        vertical-align: top;
-    }
-    .content-container--presentation--cards--card div img {
-        height: 50px;
-        width: 50px;
-        margin-right: 20px;
-    }
-    .content-container--presentation--cards--card div nav {
-        width: 35px;
-        border-bottom: 4px solid var(--second-color);
-        margin-top: 8px;
+    .content-container--presentation--cards-card {
+        margin: 10px auto;
     }
     .content-container--presentation--buttons {
-        margin-top: 15px;
-        width: 100%;
-        height: fit-content;
-    }
-    .content-container--presentation--buttons a {
-        text-decoration: none;
-    }
-    .content-container--presentation--buttons button {
-        padding: 17px 20px;
-        color: #fff;
-        border: none;
-        font-weight: 600;
-        letter-spacing: 0.7px;
-        font-style: normal;
-        font-family: 'Hind', sans-serif;
-        font-size: 13px;
-        cursor: pointer;
-    }
-    .content-container--presentation--buttons--more-services {
-        background-color: var(--second-color);
-    }
-    .content-container--presentation--buttons--more-services:hover {
-        background-color: var(--main-color);
-        transition-duration: .4s;
-    }
-    .content-container--presentation--buttons--date {
-        background-color: var(--main-color);
-    }
-    .content-container--presentation--buttons--date:hover {
-        background-color: var(--second-color);
-        transition-duration: .4s;
-    }
-    .content-container--presentation--buttons button img {
-        height: 15px;
-        width: 15px;
-        vertical-align: top;
+        padding-bottom: 30px;
     }
     .difference-container {
         background-image: url('../img/banner1.jpg');

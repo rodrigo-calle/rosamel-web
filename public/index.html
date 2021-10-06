@@ -10,8 +10,9 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="./css/index.css">
+
     <link rel="stylesheet" href="./css/buttons.css">
+    <link rel="stylesheet" href="./css/index.css">
     <!-- AOS animated -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -34,6 +35,9 @@
 <body>
 
     <header>
+        <div class="responive-header not-visible-menu" style="text-align: center; border-bottom: 5px solid var(--second-color); width: 100%;background-color: #fff;position: fixed; z-index: 998;">
+            <img src="./img/final_logo.png" height="50px" style="margin: 10px auto;" alt="">
+        </div>
         <div class="main-banner">
 
             <!-- CAROUSEL -->
@@ -109,7 +113,7 @@
                                 CERTIFICACIONES
                             </li>
                         </a>
-                        <a class="links" href="./trabaja-con-nosotros.html">
+                        <a class="links" href="#working">
                             <li class="main-banner--menu-list-item">
                                 TRABAJA CON NOSOTROS
                             </li>
@@ -536,8 +540,12 @@
     <div class="call-button">
         <img class="call-button-image" src="https://icongr.am/feather/phone.svg?size=128&color=fe760c" alt="">
     </div>
-    <div class="menu-button not-visible">
+    <div class="menu-button open-btn not-visible-menu">
         <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff" alt="">
+    </div>
+
+    <div hidden class="menu-button close-btn-menu not-visible-menu">
+        <img src="https://icongr.am/clarity/times.svg?size=128&color=ffffff" alt="">
     </div>
     <div class="call-message not-visible">
         <img height="20px" class="quit" src="https://icongr.am/octicons/x-circle-fill.svg?size=128&color=fe7612" alt="">
@@ -549,6 +557,30 @@
         </a>
     </div>
     <!-- End button -->
+    <!--menu responsive-->
+    <div hidden class="menu-responsive-phone not-visible-menu close-menu">
+        <ul>
+            <a href="./nosotros.html" class="links ">
+                <li class="active-menu">Inicio</li>
+            </a>
+            <a href="./nosotros.html" class="links">
+                <li>Nosotros</li>
+            </a>
+            <a href="./servicios.html" class="links">
+                <li>Servicios</li>
+            </a>
+            <a href="./proyectos.html" class="links">
+                <li>Proyectos</li>
+            </a>
+            <a href="./certificaciones.html" class="links">
+                <li>Certificaciones</li>
+            </a>
+            <a href="./index.html#working" class="links">
+                <li>Trabaja con <br>Nosotros</li>
+            </a>
+        </ul>
+    </div>
+    <!--End menu responsive-->
 
     <footer class="footer">
         <div class="footer--right-reserved">

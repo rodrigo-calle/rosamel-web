@@ -1,9 +1,9 @@
-:root{
-
+:root {
     --main-color: #222931;
     --second-color: #fe7012;
 }
-.menu-button{
+
+.menu-button {
     z-index: 999;
     width: 80px;
     height: 80px;
@@ -11,66 +11,122 @@
     position: fixed;
     bottom: 25px;
     right: 25px;
-    border-radius: 50%;   
+    border-radius: 50%;
 }
-.menu-button img{
-    height:50px;
+
+.menu-button img {
+    height: 50px;
     margin-top: 14px;
     margin-left: 15px;
 }
 
-.call-button{
-    z-index: 999;
+.call-button {
+    z-index: 997;
     width: 80px;
     height: 80px;
     background-color: #fff;
     position: fixed;
     bottom: 120px;
     right: 25px;
-    border-radius: 50%; 
+    border-radius: 50%;
     box-shadow: 5px 2px var(--main-color);
     box-shadow: 10px 5px 5px var(--main-color);
     cursor: pointer;
 }
 
-.call-button img{
-    height:50px;
+.call-button img {
+    height: 50px;
     margin-top: 13px;
     margin-left: 12px;
 }
-.call-message{
-    z-index: 999;  
+
+.call-message {
+    z-index: 999;
     background-color: #fff;
     position: fixed;
     bottom: 210px;
-    right: 65px;   
+    right: 65px;
     box-shadow: 5px 2px var(--main-color);
     box-shadow: 10px 5px 5px var(--main-color);
-    cursor: pointer; 
+    cursor: pointer;
     padding: 15px;
     padding-top: 19px;
-    
 }
 
-.call-message .quit{
+.call-message .quit {
     position: absolute;
     right: 15px;
     top: 10px;
-
 }
-.call-message a p{
+
+.call-message a p {
     color: var(--main-color);
     font-weight: 600;
     font-size: 18px;
     margin-top: 20px;
 }
-.call-message a p span{
+
+.call-message a p span {
     font-size: 18px;
     color: var(--second-color);
     font-weight: 600;
 }
 
-
-.not-visible{
+.not-visible {
     visibility: hidden;
+}
+
+.not-visible-menu,
+.not-visible-menu ul,
+.not-visible-menu ul a li {
+    visibility: hidden;
+    height: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .not-visible-menu,
+    .not-visible-menu ul,
+    .not-visible-menu ul a li {
+        visibility: visible;
+        height: auto;
+    }
+    .menu-button {
+        z-index: 999;
+        width: 80px;
+        height: 80px;
+        background-color: var(--second-color);
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        border-radius: 50%;
+    }
+    .menu-button img {
+        height: 50px;
+        margin-top: 14px;
+        margin-left: 15px;
+    }
+    .menu-responsive-phone {
+        width: 100%;
+        height: 90vh;
+        background-color: #fff;
+        position: fixed;
+        z-index: 997;
+        top: 70px;
+        padding-top: 15px;
+    }
+    .menu-responsive-phone ul {
+        list-style: none;
+        text-align: center;
+        padding: 0;
+    }
+    .menu-responsive-phone ul li {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 20px 0px;
+        color: var(--second-color);
+    }
+    .active-menu {
+        background-color: var(--second-color);
+        color: #fff!important;
+    }
 }
