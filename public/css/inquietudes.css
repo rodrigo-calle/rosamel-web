@@ -260,3 +260,73 @@ header {
         margin: 0;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .main-banner--menu,
+    .button-group {
+        display: none;
+    }
+    .main-banner--title-container h1 {
+        font-size: 40px;
+    }
+    .main-banner--title-container img {
+        height: 50px;
+    }
+    header {
+        height: 40vh;
+        background-position: 0px 0px;
+    }
+    .concerns--description img {
+        height: 60px;
+    }
+    .concerns--description-title {
+        font-size: 30px;
+    }
+    .concerns--description p {
+        font-weight: 400;
+        line-height: normal;
+        text-align: justify;
+    }
+    .concerns--form-container {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .concerns--form-container form {
+        text-align: left;
+        width: 100%;
+        margin: 0px auto;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .concerns--form-container form input {
+        height: 40px;
+        width: 90%;
+        border: none;
+        background-color: rgba(136, 136, 136, 0.178);
+        margin-top: 25px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .concerns--form-container form textarea {
+        width: 90%;
+        margin-top: 25px;
+        border: none;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: rgba(136, 136, 136, 0.178);
+    }
+    .concerns--form-container form .file {
+        border: 2px solid rgba(136, 136, 136, 0.178);
+        border-radius: 2px;
+        height: 55px;
+    }
+    .concerns--form-container form .send-button {
+        background-color: var(--second-color);
+        color: #fff;
+    }
+    .menu-responsive-phone {
+        height: 100vh!important;
+        top: 0;
+    }
+}

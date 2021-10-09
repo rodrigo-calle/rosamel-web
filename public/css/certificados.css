@@ -267,3 +267,63 @@ header {
         margin: 0;
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .main-banner--menu,
+    .button-group {
+        display: none;
+    }
+    .main-banner--title-container h1 {
+        font-size: 40px;
+    }
+    .main-banner--title-container img {
+        height: 50px;
+    }
+    header {
+        height: 40vh;
+        background-position: 0px 0px;
+    }
+    .title-certification {
+        margin: 0;
+        font-size: 30px;
+        text-align: center;
+        padding: 0;
+    }
+    .title-certification img {
+        height: 35px;
+    }
+    .certication-item div {
+        display: block;
+    }
+    .certification--item-image {
+        width: 100%;
+    }
+    .certification--item-image img {
+        height: 150px;
+        width: 180px;
+    }
+    .certification--item-image img:hover {
+        height: 170px;
+        width: 200px;
+        transition-duration: 500ms;
+    }
+    .certication-item {
+        padding: 0;
+    }
+    .certification--item-description {
+        width: 100%;
+    }
+    .certification--item-description h1 {
+        font-size: 20px;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+    .certification--item-description p {
+        display: none;
+    }
+    .menu-responsive-phone {
+        height: 100vh!important;
+        top: 0;
+    }
+}

@@ -313,7 +313,7 @@ header {
 .values {
     width: 100%;
     height: 600px;
-    background-image: url(../img/service2.jpg);
+    background-image: url(../img/usBack.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -515,23 +515,6 @@ header {
     .picture-four {
         top: 250px;
     }
-    .values {
-        width: 100%;
-        height: 600px;
-        background-image: url(../img/service2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        position: relative;
-        text-align: center;
-        padding-top: 50px;
-    }
-    /* .values-container-title{
-background-color: lawngreen;   
-position: absolute;
-height: 400px;
-
-} */
     .values-title {
         color: var(--second-color);
         font-size: 60px;

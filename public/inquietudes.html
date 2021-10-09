@@ -6,10 +6,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/buttons.css">
     <link rel="stylesheet" href="./css/inquietudes.css">
 </head>
 
 <body>
+    <!-- Button -->
+
+    <div class="menu-button open-btn not-visible-menu">
+        <img src="https://icongr.am/feather/menu.svg?size=128&color=ffffff" alt="">
+    </div>
+
+    <div hidden class="menu-button close-btn-menu not-visible-menu">
+        <img src="https://icongr.am/clarity/times.svg?size=128&color=ffffff" alt="">
+    </div>
+
+    <!-- End button -->
+    <!--menu responsive-->
+    <div hidden class="menu-responsive-phone not-visible-menu close-menu">
+        <ul>
+            <a href="./index.html" class="links ">
+                <li>Inicio</li>
+            </a>
+            <a href="./nosotros.html" class="links">
+                <li>Nosotros</li>
+            </a>
+            <a href="./servicios.html" class="links">
+                <li>Servicios</li>
+            </a>
+            <a href="./proyectos.html" class="links">
+                <li>Proyectos</li>
+            </a>
+            <a href="./certificaciones.html" class="links">
+                <li>Certificaciones</li>
+            </a>
+            <a href="./index.html#working" class="links">
+                <li>Trabaja con <br>Nosotros</li>
+            </a>
+            <a href="./inquietudes.html" class="links">
+                <li class="active-menu">Inquietudes</li>
+            </a>
+            <a href="./contactanos.html" class="links">
+                <li>Contáctanos</li>
+            </a>
+        </ul>
+    </div>
+    <!--End menu responsive-->
     <header>
         <div class="main-banner">
             <!-- dsadasd -->
@@ -90,6 +132,7 @@
             <img src="" alt="">
         </div>
     </footer>
+    <script src="./js/index.js" type="module"></script>
 </body>
 
 </html>
