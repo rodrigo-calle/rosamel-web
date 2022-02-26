@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page Not Found</title>
+
+    <style media="screen">
+      body { 
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      h2 {
+        text-align: center;
+        margin: 20px auto;
+      }
+      .error-container {
+        height: 80vh;
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0px auto;
+      }
+      .error-container .message {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .error-container .message .message__title {
+        margin-top: 0px;
+        font-size: 45px;
+        font-weight: bold;
+      }
+      .error-container .message .message__description {
+        margin-top: 0px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .error-container .message .link-btn-container button{
+          padding:8px 15px;
+          border-radius: 7px;
+          border: none;
+          cursor: pointer;
+          font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Página No encontrada</h2>
+    <div class="error-container">
+      <div class="message">
+        <p class="message__title">¡Ups!</p>
+        <p class="message__description">Lo sentimos. Esta página no se encuentra disponible.</p>
+        <a href="/" class="link-btn-container"><button>Regresar a página principal</button></a>
+      </div>
+      <img>
+        <img src="./img/404-error.png" alt="error 404"></img>
+      </div>
+    </div>
+
+  </body>
+</html>
